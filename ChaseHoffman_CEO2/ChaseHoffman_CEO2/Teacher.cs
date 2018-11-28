@@ -9,7 +9,7 @@ namespace ChaseHoffman_CEO2
     class Teacher:Person
     {
         string[] EdBackground { get; set; }
-        public Teacher()
+        public Teacher(string[] edb, string name, int age) : base(name, age)
         {
 
         }

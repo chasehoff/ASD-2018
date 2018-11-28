@@ -10,8 +10,10 @@ namespace ChaseHoffman_CEO2
     {
         public string Name { get; set; }
         public int Age { get; set; }
-        public Person()
+        public Person(string name, int age)
         {
+            Name = name;
+            Age = age;
             //Console.WriteLine("Person Constructor works...");
         }
     }

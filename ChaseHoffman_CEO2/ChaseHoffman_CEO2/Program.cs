@@ -12,10 +12,15 @@ namespace ChaseHoffman_CEO2
         {
             Console.Clear();
             Menu.display();
-            string titleResponse;
-            string teacherName;
-            Person currentPerson = new Person();
-            Course currentCourse = new Course();
+            string titleResponse = "Math";
+            string teacherName = "Carl";
+            int grade = 100;
+            int age = 30;
+            int backgroundLength = 0;
+            Course displayCourse = new Course(null, null, null);
+            Teacher teacher = new Teacher(null, null, age);
+            Person currentPerson = new Person(teacherName, age);
+            Student students = new Student(grade, null, age);
 
             //Define Teachers age
             currentPerson.Age = 30;
@@ -34,14 +39,16 @@ namespace ChaseHoffman_CEO2
                 if (menuResponse == "1" || menuResponse.ToLower() == "create course")
                 {
                     //Course Title
+                    
                     Console.WriteLine("Please enter your course title...");
                     titleResponse = Console.ReadLine();
                     titleResponse = Validation.ValidateString(titleResponse);
+                    displayCourse.courseTitle = titleResponse;
 
                     //Teachers Name
-                    Teacher currentTeacher = new Teacher();
+                    Teacher currentTeacher = new Teacher(null, teacherName, age);
                     Console.WriteLine("What is your teachers name?");
-                    string teacherName = Console.ReadLine();
+                    teacherName = Console.ReadLine();
                     teacherName = Validation.ValidateString(teacherName);
                     currentTeacher.Name = teacherName;
 
@@ -52,14 +59,15 @@ namespace ChaseHoffman_CEO2
                     Student[] cSize = new Student[classSize];
 
                     //Create the course
-                    Course currentCourse = new Course(titleResponse, currentTeacher, cSize);
+                    Course newCourse = new Course(titleResponse, currentTeacher, cSize);
+                    
                 }
                 else if (menuResponse == "2" || menuResponse.ToLower() == "create teacher")
                 {
                     //Get length of array
                     Console.WriteLine("How many entries are in your teachers Education brackground?");
                     string sbge = Console.ReadLine();
-                    int backgroundLength = Validation.ValidateInt(sbge);
+                    backgroundLength = Validation.ValidateInt(sbge);
 
                     //define the array
                     string[] backgroundEducation = new string[backgroundLength];
@@ -71,22 +79,57 @@ namespace ChaseHoffman_CEO2
                         backgroundEducation[i] = Console.ReadLine();
                     }
                     Console.WriteLine("Thank you for providing us with that information.");
-                    Current
+                    Teacher newTeacher = new Teacher(backgroundEducation, teacherName, age);
                 }
                 else if (menuResponse == "3" || menuResponse.ToLower() == "add student")
                 {
-                    Console.WriteLine("CHOICE 3");
+                   
+                    if (backgroundLength == 0)
+                    {
+                        Console.WriteLine("Please type in the number of students in your course...");
+                        string studentHolder = Console.ReadLine();
+
+                        backgroundLength = Validation.ValidateInt(studentHolder);
+                    }
+                    Student[] studentList = new Student[backgroundLength];
+                    //name holder temp
+                    string nh;
+                    //age holder temp
+                    string sah;
+                    for (int i = 0; i<backgroundLength; i++)
+                    {
+                        //get name
+                        Console.WriteLine($"What is your #{i+1} students name?");
+                        nh = Console.ReadLine();
+                        string name = Validation.ValidateString(nh);
+
+                        //get age
+                        Console.WriteLine($"What is your students age?");
+                        sah = Console.ReadLine();
+                        int Age = Validation.ValidateInt(sah);
+
+                        //Get grade
+                        Console.WriteLine($"What is the students grade?");
+                        string gradeph = Console.ReadLine();
+                        grade = Validation.ValidateInt(gradeph);
+
+                        //Create the new student
+                        Student newStudent = new Student(grade, nh, age);
+                    }
                 }
                 else if (menuResponse == "4" || menuResponse.ToLower() == "display information")
                 {
-                    Console.WriteLine("CHOICE 4");
+                    Console.WriteLine($"Course Name: {titleResponse}" +
+                        $"\r\nTeacher: {teacherName}");
+
+                    Console.ReadKey();
                 }
-                else if (menuResponse == "0" || menuResponse.ToLower() == "exit") ;
+                else if (menuResponse == "0" || menuResponse.ToLower() == "exit")
                 {
                     Environment.Exit(0);
                     Console.WriteLine("CHOICE 0");
                 }
-                
+                Console.Clear();
                 Menu.display();
                 menuResponse = Console.ReadLine();
             }
