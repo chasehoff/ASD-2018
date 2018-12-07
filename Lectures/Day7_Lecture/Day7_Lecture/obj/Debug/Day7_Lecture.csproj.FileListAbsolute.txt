@@ -1,0 +1,2 @@
+C:\Users\Chase Hoffman\source\repos\Day7_Lecture\Day7_Lecture\obj\Debug\Day7_Lecture.csprojAssemblyReference.cache
+C:\Users\Chase Hoffman\source\repos\Day7_Lecture\Day7_Lecture\obj\Debug\Day7_Lecture.csproj.CoreCompileInputs.cache

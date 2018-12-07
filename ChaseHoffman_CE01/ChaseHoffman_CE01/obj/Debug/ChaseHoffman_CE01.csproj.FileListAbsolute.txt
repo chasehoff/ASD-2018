@@ -1,7 +1,0 @@
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\bin\Debug\ChaseHoffman_CE01.exe.config
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\bin\Debug\ChaseHoffman_CE01.exe
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\bin\Debug\ChaseHoffman_CE01.pdb
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\obj\Debug\ChaseHoffman_CE01.csprojAssemblyReference.cache
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\obj\Debug\ChaseHoffman_CE01.csproj.CoreCompileInputs.cache
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\obj\Debug\ChaseHoffman_CE01.exe
-C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CE01\ChaseHoffman_CE01\obj\Debug\ChaseHoffman_CE01.pdb

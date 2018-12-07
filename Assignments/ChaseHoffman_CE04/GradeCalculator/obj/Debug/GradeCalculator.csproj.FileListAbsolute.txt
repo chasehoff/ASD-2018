@@ -1,0 +1,13 @@
+C:\Users\William Jensen\Documents\ASD\CompleteExercises\Rewrite_Exercises\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe.config
+C:\Users\William Jensen\Documents\ASD\CompleteExercises\Rewrite_Exercises\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe
+C:\Users\William Jensen\Documents\ASD\CompleteExercises\Rewrite_Exercises\GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.pdb
+C:\Users\William Jensen\Documents\ASD\CompleteExercises\Rewrite_Exercises\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csprojResolveAssemblyReference.cache
+C:\Users\William Jensen\Documents\ASD\CompleteExercises\Rewrite_Exercises\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
+C:\Users\William Jensen\Documents\ASD\CompleteExercises\Rewrite_Exercises\GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe.config
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.exe
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\bin\Debug\GradeCalculator.pdb
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.exe
+\\vmware-host\Shared Folders\Desktop\CE05 GradeCalculator\GradeCalculator\obj\Debug\GradeCalculator.pdb

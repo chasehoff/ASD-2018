@@ -1,0 +1,7 @@
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\bin\Debug\Day5_Lecture.exe.config
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\bin\Debug\Day5_Lecture.exe
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\bin\Debug\Day5_Lecture.pdb
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\obj\Debug\Day5_Lecture.csprojAssemblyReference.cache
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\obj\Debug\Day5_Lecture.csproj.CoreCompileInputs.cache
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\obj\Debug\Day5_Lecture.exe
+C:\Users\Chase Hoffman\source\repos\Day5_Lecture\Day5_Lecture\obj\Debug\Day5_Lecture.pdb

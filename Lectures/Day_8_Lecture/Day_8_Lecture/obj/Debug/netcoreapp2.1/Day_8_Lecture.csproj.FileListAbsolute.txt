@@ -1,0 +1,13 @@
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\bin\Debug\netcoreapp2.1\Day_8_Lecture.deps.json
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\bin\Debug\netcoreapp2.1\Day_8_Lecture.runtimeconfig.json
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\bin\Debug\netcoreapp2.1\Day_8_Lecture.runtimeconfig.dev.json
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\bin\Debug\netcoreapp2.1\Day_8_Lecture.dll
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\bin\Debug\netcoreapp2.1\Day_8_Lecture.pdb
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\bin\Debug\netcoreapp2.1\MySql.Data.dll
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.csprojAssemblyReference.cache
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.csproj.CoreCompileInputs.cache
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.AssemblyInfoInputs.cache
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.AssemblyInfo.cs
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.csproj.CopyComplete
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.dll
+C:\Users\Chase Hoffman\source\repos\Day_8_Lecture\Day_8_Lecture\obj\Debug\netcoreapp2.1\Day_8_Lecture.pdb

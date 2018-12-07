@@ -1,0 +1,7 @@
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\bin\Debug\ChaseHoffman_CEO6.exe.config
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\bin\Debug\ChaseHoffman_CEO6.exe
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\bin\Debug\ChaseHoffman_CEO6.pdb
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\obj\Debug\ChaseHoffman_CEO6.csprojAssemblyReference.cache
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\obj\Debug\ChaseHoffman_CEO6.csproj.CoreCompileInputs.cache
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\obj\Debug\ChaseHoffman_CEO6.exe
+C:\Users\Chase Hoffman\source\repos\ChaseHoffman_CEO6\ChaseHoffman_CEO6\obj\Debug\ChaseHoffman_CEO6.pdb
