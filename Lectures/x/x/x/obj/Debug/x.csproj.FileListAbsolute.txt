@@ -1,0 +1,7 @@
+\\vmware-host\Shared Folders\Desktop\x\x\x\bin\Debug\x.exe.config
+\\vmware-host\Shared Folders\Desktop\x\x\x\bin\Debug\x.exe
+\\vmware-host\Shared Folders\Desktop\x\x\x\bin\Debug\x.pdb
+\\vmware-host\Shared Folders\Desktop\x\x\x\obj\Debug\x.csprojAssemblyReference.cache
+\\vmware-host\Shared Folders\Desktop\x\x\x\obj\Debug\x.csproj.CoreCompileInputs.cache
+\\vmware-host\Shared Folders\Desktop\x\x\x\obj\Debug\x.exe
+\\vmware-host\Shared Folders\Desktop\x\x\x\obj\Debug\x.pdb
