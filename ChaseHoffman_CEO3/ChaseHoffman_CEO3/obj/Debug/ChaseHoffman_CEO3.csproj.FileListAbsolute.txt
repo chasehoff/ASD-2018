@@ -1,7 +1,0 @@
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\bin\Debug\ChaseHoffman_CEO3.exe.config
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\bin\Debug\ChaseHoffman_CEO3.exe
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\bin\Debug\ChaseHoffman_CEO3.pdb
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\obj\Debug\ChaseHoffman_CEO3.csprojAssemblyReference.cache
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\obj\Debug\ChaseHoffman_CEO3.csproj.CoreCompileInputs.cache
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\obj\Debug\ChaseHoffman_CEO3.exe
-\\vmware-host\Shared Folders\Documents\GitHub\test\ASD-2018\ChaseHoffman_CEO3\ChaseHoffman_CEO3\obj\Debug\ChaseHoffman_CEO3.pdb
