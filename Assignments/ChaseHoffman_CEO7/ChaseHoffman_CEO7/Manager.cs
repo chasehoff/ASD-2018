@@ -20,5 +20,9 @@ namespace ChaseHoffman_CEO7
             decimal paycheck = Salary + _bonus;
             return paycheck; 
         }
+        public override string ToString()
+        {
+            return $"{Name},{Address},{Salary},{_bonus}";
+        }
     }
 }

@@ -15,6 +15,9 @@ namespace ChaseHoffman_CEO7
             Name = n;
             Address = a;
         }
+    }
+    class Application
+    {
         public void AddEmployee()
         {
             PartTime Carl = new PartTime("Carl", "WinterPark Florida 32792", 10.50m, 20m);
@@ -31,7 +34,7 @@ namespace ChaseHoffman_CEO7
                 $"[2] - FullTime\r\n" +
                 $"[3] - Manager");
 
-            while (ur != 1|| ur != 2 || ur != 3)
+            while (ur != 1 && ur != 2 && ur != 3 && ur != 4)
             {
                 ur = Validation.ValidateInt("Please enter a valid answer...");
             }
@@ -45,7 +48,8 @@ namespace ChaseHoffman_CEO7
 
                 PartTime newPartTime = new PartTime(ename, eaddress, epph, ehpw);
                 Console.WriteLine($"You have added a new PartTime employee, {ename}!");
-                
+                employeeRoster.Add(newPartTime);
+
             }
             else if (ur == 2)
             {
@@ -56,12 +60,35 @@ namespace ChaseHoffman_CEO7
 
                 FullTime newFullTime = new FullTime(ename, eaddress, epph, ehpw);
                 Console.WriteLine($"You have added the new employee {ename}!");
+                employeeRoster.Add(newFullTime);
             }
             else if (ur == 3)
             {
+                string ename = Validation.ValidateString("Please enter the name of the employee...");
+                string eaddress = Validation.ValidateString("Please enter the address of the employee...");
+                decimal salary = Validation.ValidateDecimal("Please enter the salary for this employee...");
+                decimal bonus = Validation.ValidateDecimal("Please enter the bonus employee...");
 
+                Manager newManager = new Manager(ename, eaddress, bonus, salary);
+                Console.WriteLine($"You have added the new employee {ename}!");
+                employeeRoster.Add(newManager);
             }
+            else if (ur == 4)
+            {
+                string ename = Validation.ValidateString("Please enter the name of the employee...");
+                string eaddress = Validation.ValidateString("Please enter the address of the employee...");
+                decimal salary = Validation.ValidateDecimal("Please enter the salary for this employee...");
+                decimal bonus = Validation.ValidateDecimal("Please enter the bonus employee...");
 
+                Salaried newSalaried = new Salaried(ename, eaddress, salary);
+                Console.WriteLine($"You have added the new employee {ename}!");
+                employeeRoster.Add(newSalaried);
+            }
+            for (int i = 0; i<employeeRoster.Count; i++)
+            {
+                Console.WriteLine(employeeRoster[i]);
+                Console.ReadKey();
+            }
         }
     }
 }

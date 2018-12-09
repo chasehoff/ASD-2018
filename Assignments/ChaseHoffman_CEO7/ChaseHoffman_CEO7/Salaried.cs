@@ -18,5 +18,9 @@ namespace ChaseHoffman_CEO7
         {
             return Salary;
         }
+        public override string ToString()
+        {
+            return $"{Name},{Address},{Salary}";
+        }
     }
 }

@@ -27,6 +27,7 @@ namespace ChaseHoffman_CEO7
             bool running = true;
             while (running)
             {
+                Application myApp = new Application();  
                 //Menu
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.DarkMagenta;
@@ -44,7 +45,7 @@ namespace ChaseHoffman_CEO7
                     case "1":
                     case "add employee":
                         {
-                            
+                            myApp.AddEmployee();
                         }break;
                     case "2":
                     case "remove employee":

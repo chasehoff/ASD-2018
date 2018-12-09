@@ -20,5 +20,9 @@ namespace ChaseHoffman_CEO7
             decimal paycheck = hoursPerWeek * payPerHour;
             return paycheck;
         }
+        public override string ToString()
+        {
+            return $"{Name},{Address},{payPerHour},{hoursPerWeek}";
+        }
     }
 }
